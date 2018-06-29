@@ -1,2 +1,3 @@
 # LinkedIn-Scraper
-Scraper for LinkedIn using the selenium webdriver
+Scraper for LinkedIn using the selenium webdriver, on lines 78 and 79 replace the words EMAIL and PASSWORD with your the email associated to your LinkedIn account and password respectively. On the last line, the program must be supplied a .txt file of LinkedIn profile URL's. I've provided a small text file in this repository of some very prominent LinkedIn figures for demonstration purposes.
+You'll notice lots of sleep statements, these are to ensure that LinkedIn does not catch you for using an automated service. Since they have recently made their API practially useless, it is impossible for one to extract public data from the website aside from manually visiting each page they are interested in and using an HTML parser to download and parse the data.
